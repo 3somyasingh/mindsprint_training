@@ -1,0 +1,67 @@
+https://github.com/sonam-niit/mindsprintbatch1/tree/main/Foundation/Day1
+
+
+
+
+
+sudo yum install httpd -y
+
+create folder
+cd /var/www/html
+
+create file 
+sudo vi index.html
+
+then type i
+
+then type code 
+to save:
+  then esc
+  type=    :wq!
+( w for save q! for quit)
+  enter 
+
+
+sudo service httpd start
+
+
+
+amazon cli 
+cmd:::
+
+ aws --version
+
+aws configure
+
+IAM access key password
+
+us-east-1
+
+
+
+
+
+volumes
+
+select volume - action - select instance - give the device name like /dev/sdd etc..
+
+
+in aws Linux console?
+open instance - shh - connect 
+
+lsblk 
+
+to ckeck empty or not  -----  
+sudo file -s /dev/xvda
+
+sudo mkdir/data
+
+sudo mount /dev/xvda / data
+lsblk (to check it is mounted or not)
+
+-----unmount
+ sudo umount /data
+
+
+
+
